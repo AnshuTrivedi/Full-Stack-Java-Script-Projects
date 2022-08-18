@@ -1,0 +1,171 @@
+.header{
+    height: 600px;
+    background-color: #1f2937;
+    
+}
+
+ul {
+    list-style-type: none;
+    margin: 20px;
+    padding: 30px;
+    overflow: hidden;
+}
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  .img1{
+      display: block;
+      float: right;
+      height: 300px;
+      width: 300px;
+      margin-right: 450px;
+      border-radius: 5px;
+      margin-bottom: 100px;
+      border-style: ridge;
+  }
+
+  .img2{
+        height: 100px;      
+        width: auto;
+        border-radius: 5px;
+        border-radius: 50%;
+        margin-left: 30px;
+    
+  }
+  
+  .header h1{
+    text-align: center;
+    font-size: 40px ;
+    font-weight: 400;
+    margin-left: 200px;
+    color: #f9faf8;
+  }
+
+  .header p{
+    text-align: center;
+    margin-left: 200px;
+    color: #e5e7eb;
+    
+  }
+
+  .header button{
+    margin-left: 600px;
+    background-color: #3882f6;
+    height:40px;
+    width:100px;
+    border-radius: 10px;
+    border-style: outset;
+  }
+
+  /* 2nd section */
+  
+.content{
+    height: 600px;
+
+}
+
+h2{
+  font-weight: 600;
+  text-align: center;
+  text-decoration: solid;
+}
+
+div.gallery {
+    border: 5px solid rgb(89, 89, 253);
+    border-radius: 10px;
+  }
+  
+  div.gallery img {
+    width: 200px;
+    height: 200px;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  
+  .responsive {
+    padding: 0 1px;
+    float: left;
+  }
+
+  .content div{
+    height: 200px;
+    width: 200px;
+    margin-left: 150px;
+    margin-top: 10px;
+  }
+
+  .b1{
+    padding-left: 100px;
+  }
+
+  .b2{
+    padding-left: 60px;
+  }
+
+
+/* fun fact section*/
+.info{
+    background-color: #e5e7eb;
+    height: 200px;
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+    font-style: italic;
+    font-weight: 40px;
+    color: #1f2937;
+   
+}
+
+
+.footer{
+    height: 300px;
+}
+
+ #footer_inside{
+    background-color: #3882f6;
+    width: 1600px;
+    height: 200px;
+    margin: auto;
+    margin-top: 100px;
+    padding:20px;
+    
+}
+
+
+/*  button inside footer*/
+
+#footer_inside button{
+    background-color: #3882f6;
+    color: white;
+    height:40px;
+    width:100px;
+    border-radius: 10px;
+    border-style: outset;
+    margin-block-end: 30px;
+    margin-left: 800px;
+  }
+
+  .bold{
+    color: white;
+    font-weight: 1000;
+    margin-left: 150px;
+  }
+
+  #footer_inside p{
+    color: white;
+    margin-left: 150px;
+  }
